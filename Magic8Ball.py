@@ -7,9 +7,9 @@
 import random
 
 def main():
-  #Create a list of your responses.
-print("Magic 8 Ball")
-answers = [
+    #Create a list of your responses.
+    print("Magic 8 Ball")
+    answers = [
     "It is certain.",
     "Without a doubt.",
     "It is decidedly so.",
@@ -30,13 +30,13 @@ answers = [
     "Cannot predict now.",
     "Reply hazy, try again.",
     "Concentrate and ask again."
-]
+    ]
   
-  #Prompt the user for their question.
-question = input("Ask the Magic 8 Ball a question. ")
-  #Answer question randomly with one of the options from your earlier list.
-answer = random.choice(answers)
-print(answer)
+    #Prompt the user for their question.
+    question = input("Ask the Magic 8 Ball a question. ")
+    #Answer question randomly with one of the options from your earlier list.
+    answer = random.choice(answers)
+    print(answer)
 
 if __name__ == '__main__':
   main()
